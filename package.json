@@ -1,0 +1,97 @@
+{
+  "name": "@talves/netlify-cms-manual",
+  "version": "2.4.2-beta10",
+  "description": "Backend for Netlify CMS to test with local file system",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talves/netlify-cms.git"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:parcel": "parcel src/index.js",
+    "build": "run-s clean build:parcel",
+    "format": "prettier --write \"src/**/*.js\"",
+    "prepublishOnly": "echo \"Create test and lint - (npm run test && npm run lint)\""
+  },
+  "dependencies": {
+    "@talves/netlify-cms-backend-bitbucket": "beta",
+    "@talves/netlify-cms-backend-git-gateway": "beta",
+    "@talves/netlify-cms-backend-github": "beta",
+    "@talves/netlify-cms-backend-gitlab": "beta",
+    "@talves/netlify-cms-backend-test": "beta",
+    "@talves/netlify-cms-core": "beta",
+    "@talves/netlify-cms-editor-component-image": "beta",
+    "@talves/netlify-cms-media-library-cloudinary": "beta",
+    "@talves/netlify-cms-media-library-uploadcare": "beta",
+    "@talves/netlify-cms-widget-boolean": "beta",
+    "@talves/netlify-cms-widget-date": "beta",
+    "@talves/netlify-cms-widget-datetime": "beta",
+    "@talves/netlify-cms-widget-file": "beta",
+    "@talves/netlify-cms-widget-image": "beta",
+    "@talves/netlify-cms-widget-list": "beta",
+    "@talves/netlify-cms-widget-map": "beta",
+    "@talves/netlify-cms-widget-markdown": "beta",
+    "@talves/netlify-cms-widget-number": "beta",
+    "@talves/netlify-cms-widget-object": "beta",
+    "@talves/netlify-cms-widget-relation": "beta",
+    "@talves/netlify-cms-widget-select": "beta",
+    "@talves/netlify-cms-widget-string": "beta",
+    "@talves/netlify-cms-widget-text": "beta",
+    "emotion": "^9.2.6",
+    "immutable": "^3.7.6",
+    "lodash": "^4.17.10",
+    "moment": "2.24.0",
+    "netlify-cms-backend-bitbucket": "2.1.2",
+    "netlify-cms-backend-git-gateway": "2.2.3",
+    "netlify-cms-backend-github": "^2.0.0",
+    "netlify-cms-backend-gitlab": "^2.0.0",
+    "netlify-cms-backend-test": "2.0.6",
+    "netlify-cms-core": "2.8.0",
+    "netlify-cms-lib-auth": "^2.0.4",
+    "netlify-cms-lib-util": "^2.0.0",
+    "netlify-cms-ui-default": "^2.0.0",
+    "netlify-cms-widget-file": "2.2.0",
+    "netlify-cms-widget-image": "2.1.1",
+    "netlify-cms-widget-number": "2.1.1",
+    "netlify-cms-widget-string": "2.0.4",
+    "netlify-cms-widget-text": "2.0.6",
+    "prop-types": "^15.5.10",
+    "react": "^16.4.1",
+    "react-emotion": "^9.2.6",
+    "react-immutable-proptypes": "^2.1.0",
+    "uuid": "3.3.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "keywords": [
+    "adarta",
+    "netlify-cms"
+  ],
+  "author": "talves",
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Opera versions",
+    "last 2 Firefox versions",
+    "last 2 Edge versions",
+    "last 2 Safari versions",
+    "last 2 iOS versions",
+    "last 2 ChromeAndroid versions"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "npm-run-all": "4.1.5",
+    "parcel-bundler": "1.11.0",
+    "rimraf": "2.6.3"
+  }
+}
