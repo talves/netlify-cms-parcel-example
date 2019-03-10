@@ -53,5 +53,9 @@ CMS.registerMediaLibrary(cloudinary);
 /** EditorComponents */
 CMS.registerEditorComponent(image);
 
+if (typeof window !== 'undefined') {
+  window.CMS = CMS;
+}
+
 export { CMS };
 export { CMS as default };
