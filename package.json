@@ -15,7 +15,10 @@
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist",
-    "build:parcel": "parcel src/index.js",
+    "clean:all": "rimraf dist node_modules .cache",
+    "start": "run-s clean build:dev",
+    "build:dev": "parcel ./src/index.html",
+    "build:parcel": "parcel build ./src/index.js --out-dir dist --experimental-scope-hoisting  --no-cache",
     "build": "run-s clean build:parcel",
     "format": "prettier --write \"src/**/*.js\"",
     "prepublishOnly": "echo \"Create test and lint - (npm run test && npm run lint)\""
@@ -28,8 +31,11 @@
     "@talves/netlify-cms-backend-test": "beta",
     "@talves/netlify-cms-core": "beta",
     "@talves/netlify-cms-editor-component-image": "beta",
+    "@talves/netlify-cms-lib-auth": "beta",
+    "@talves/netlify-cms-lib-util": "beta",
     "@talves/netlify-cms-media-library-cloudinary": "beta",
     "@talves/netlify-cms-media-library-uploadcare": "beta",
+    "@talves/netlify-cms-ui-default": "beta",
     "@talves/netlify-cms-widget-boolean": "beta",
     "@talves/netlify-cms-widget-date": "beta",
     "@talves/netlify-cms-widget-datetime": "beta",
@@ -48,22 +54,7 @@
     "immutable": "^3.7.6",
     "lodash": "^4.17.10",
     "moment": "2.24.0",
-    "netlify-cms-backend-bitbucket": "2.1.2",
-    "netlify-cms-backend-git-gateway": "2.2.3",
-    "netlify-cms-backend-github": "^2.0.0",
-    "netlify-cms-backend-gitlab": "^2.0.0",
-    "netlify-cms-backend-test": "2.0.6",
-    "netlify-cms-core": "2.8.0",
-    "netlify-cms-lib-auth": "^2.0.4",
-    "netlify-cms-lib-util": "^2.0.0",
-    "netlify-cms-ui-default": "^2.0.0",
-    "netlify-cms-widget-file": "2.2.0",
-    "netlify-cms-widget-image": "2.1.1",
-    "netlify-cms-widget-number": "2.1.1",
-    "netlify-cms-widget-string": "2.0.4",
-    "netlify-cms-widget-text": "2.0.6",
     "prop-types": "^15.5.10",
-    "react": "^16.4.1",
     "react-emotion": "^9.2.6",
     "react-immutable-proptypes": "^2.1.0",
     "uuid": "3.3.2"
@@ -92,6 +83,11 @@
     "@babel/preset-react": "7.0.0",
     "npm-run-all": "4.1.5",
     "parcel-bundler": "1.11.0",
+    "parcel-plugin-static-files-copy": "2.0.0",
     "rimraf": "2.6.3"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
   }
 }
