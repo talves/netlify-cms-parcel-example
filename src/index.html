@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <title>Netlify CMS File System Backend Test</title>
+  <script src="./test.data.js"></script>
+</head>
+<body>
+
+  <script>
+    /**
+     * global flag to initialize the CMS manually after registering backend and widgets.
+     */
+    // CMS_MANUAL_INIT = true;
+  </script>
+  <script src="https://unpkg.com/react@16.8.2/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16.8.2/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/create-react-class@15.6.3/create-react-class.js"></script>
+  <script src="./index.js"></script>
+  <!-- <script src="/fs/dist/index/dist/umd/index.js"></script> -->
+  <script>
+    console.log('window', window)
+    var CMS = NetlifyCmsReact;
+    console.log('CMS', CMS)
+    // CMS.registerBackend('file-system', FileSystemBackendClass);
+    var h = React.createElement;
+    var createClass = createReactClass;
+  </script>
+  <script src="./test.register.js"></script>
+  <script>
+    CMS.init();
+  </script>
+</body>
+</html>
