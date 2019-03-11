@@ -1,16 +1,26 @@
 ## There be Dragons 🐲🐉 here!
 
-## netlify-cms-parcel-example
+### netlify-cms-parcel-example
 
 **_Note:_** This is a test repository for proof of concept using [umd builds proposed (PR 2141)][1] for [NetlifyCMS][2]. When the PR is accepted, this repository will be converted to a starter.
 
-build local:
-
 ```bash
 $ yarn
+```
+
+build local development:
+
+```bash
 $ yarn start
 ```
 
+Navigate to `http://localhost:1234/`
+
+Build for deploy:
+
+```bash
+$ yarn build
+```
 
 
 [1]: https://github.com/netlify/netlify-cms/pull/2141
