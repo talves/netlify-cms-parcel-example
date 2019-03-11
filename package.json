@@ -17,7 +17,7 @@
     "clean": "rimraf dist",
     "clean:all": "rimraf dist node_modules .cache",
     "start": "run-s clean build:dev",
-    "build:dev": "parcel ./src/index.html",
+    "build:dev": "parcel src/index.html",
     "build:parcel": "parcel build src/index.html --out-dir dist --no-cache",
     "build": "run-s clean build:parcel",
     "format": "prettier --write \"src/**/*.js\"",

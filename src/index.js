@@ -56,5 +56,3 @@ CMS.registerEditorComponent(image);
 if (typeof window !== 'undefined') {
   window['CMS'] = CMS;
 }
-
-CMS.init();
