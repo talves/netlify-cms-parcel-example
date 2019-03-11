@@ -1,10 +1,10 @@
 {
-  "name": "@talves/netlify-cms-manual",
-  "version": "2.4.2-beta10",
-  "description": "Backend for Netlify CMS to test with local file system",
+  "name": "netlify-cms-parcel-example",
+  "version": "2.6.0-beta.0",
+  "description": "A parcel bundle example to create a NetlifyCMS application.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/talves/netlify-cms.git"
+    "url": "https://github.com/talves/netlify-cms-parcel-example.git"
   },
   "main": "dist/index.js",
   "files": [
@@ -18,7 +18,7 @@
     "clean:all": "rimraf dist node_modules .cache",
     "start": "run-s clean build:dev",
     "build:dev": "parcel ./src/index.html",
-    "build:parcel": "parcel build ./src/index.js --out-dir dist --experimental-scope-hoisting  --no-cache",
+    "build:parcel": "parcel build src/index.html --out-dir dist --no-cache",
     "build": "run-s clean build:parcel",
     "format": "prettier --write \"src/**/*.js\"",
     "prepublishOnly": "echo \"Create test and lint - (npm run test && npm run lint)\""
