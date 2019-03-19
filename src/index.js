@@ -1,10 +1,10 @@
 import * as CMS from '@talves/netlify-cms-core';
 /** Backends */
-import { Control as NetlifyCmsBackendGithub } from '@talves/netlify-cms-backend-github';
-import { Control as NetlifyCmsBackendGitlab } from '@talves/netlify-cms-backend-gitlab';
-import { Control as NetlifyCmsBackendGitGateway } from '@talves/netlify-cms-backend-git-gateway';
-import { Control as NetlifyCmsBackendBitbucket } from '@talves/netlify-cms-backend-bitbucket';
-import { Control as NetlifyCmsBackendTest } from '@talves/netlify-cms-backend-test';
+import { GitHubBackend } from '@talves/netlify-cms-backend-github';
+import { GitLabBackend } from '@talves/netlify-cms-backend-gitlab';
+import { GitGatewayBackend } from '@talves/netlify-cms-backend-git-gateway';
+import { BitbucketBackend } from '@talves/netlify-cms-backend-bitbucket';
+import { TestBackend } from '@talves/netlify-cms-backend-test';
 /** Widgets */
 import * as NetlifyCmsWidgetString from '@talves/netlify-cms-widget-string';
 import * as NetlifyCmsWidgetNumber from '@talves/netlify-cms-widget-number';
@@ -27,11 +27,11 @@ import cloudinary from '@talves/netlify-cms-media-library-cloudinary';
 import image from '@talves/netlify-cms-editor-component-image';
 
 /** Backends */
-CMS.registerBackend('git-gateway', NetlifyCmsBackendGitGateway);
-CMS.registerBackend('github', NetlifyCmsBackendGithub);
-CMS.registerBackend('gitlab', NetlifyCmsBackendGitlab);
-CMS.registerBackend('bitbucket', NetlifyCmsBackendBitbucket);
-CMS.registerBackend('test-repo', NetlifyCmsBackendTest);
+CMS.registerBackend('git-gateway', GitGatewayBackend);
+CMS.registerBackend('github', GitHubBackend);
+CMS.registerBackend('gitlab', GitLabBackend);
+CMS.registerBackend('bitbucket', BitbucketBackend);
+CMS.registerBackend('test-repo', TestBackend);
 /** Widgets */
 CMS.registerWidget('string', NetlifyCmsWidgetString.controlComponent, NetlifyCmsWidgetString.previewComponent);
 CMS.registerWidget('number', NetlifyCmsWidgetNumber.controlComponent, NetlifyCmsWidgetNumber.previewComponent);

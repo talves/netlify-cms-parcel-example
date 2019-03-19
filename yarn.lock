@@ -928,50 +928,50 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@talves/netlify-cms-backend-bitbucket@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-bitbucket/-/netlify-cms-backend-bitbucket-2.6.2-beta.1.tgz#e02bfa9fbda8c8113e282646f873185d9b26d7d9"
-  integrity sha512-UWhB/J3NOBdg4y4lvMY52FLuK5ijzGs+ZC8eQGOcTuOkxDA789+M9jSsNlGHYbESmFkACzz4LNs4WViB81VEQg==
+"@talves/netlify-cms-backend-bitbucket@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-bitbucket/-/netlify-cms-backend-bitbucket-2.6.2-beta.7.tgz#91ebc896035ec0e5d5c6547c13d81758c4f97a8a"
+  integrity sha512-3CXmqwnexZxV5D4ywyBELd/TDyGMYjVpxxFqcqUNZMZjB9CJ3/vjDD3O5zC6f4vTvPy7XWe/V8+u8512wQmaeA==
   dependencies:
     js-base64 "^2.5.1"
     semaphore "^1.1.0"
 
-"@talves/netlify-cms-backend-git-gateway@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-git-gateway/-/netlify-cms-backend-git-gateway-2.6.2-beta.1.tgz#6c90e324f48541915345beb6972b1b48354060a0"
-  integrity sha512-KcPYrc2NJlzUHRFKmNDZc7nCt5lDSbHE1myiDdQ2nVZYOwPDwY0A1e7wl1HmU0V0z3+ykMPj5IG0qj1Gkl6hCg==
+"@talves/netlify-cms-backend-git-gateway@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-git-gateway/-/netlify-cms-backend-git-gateway-2.6.2-beta.7.tgz#3f9e2403de6b16fd079555401c3feab73f7a44f2"
+  integrity sha512-Lyuut73q3nqoDgN3e9TbUREdHNLZMGT+D+z1pWpPsm4BauiPnWyfv9tLytt6PW1srhjUo9e0dJQfqO4dI2qHew==
   dependencies:
     gotrue-js "^0.9.24"
     ini "^1.3.5"
     jwt-decode "^2.2.0"
     minimatch "^3.0.4"
 
-"@talves/netlify-cms-backend-github@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-github/-/netlify-cms-backend-github-2.6.2-beta.1.tgz#4e8b49e0bc1330fb5eaf79b0374a3da0f5d8811a"
-  integrity sha512-Msgttyp/l7c88Ilx+N3JqQeokjBv0cWmAQxaZNZqDm8tZUOys+F68oEebQNnNHotHfh79vwaeiumsdrZ3HZWig==
+"@talves/netlify-cms-backend-github@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-github/-/netlify-cms-backend-github-2.6.2-beta.7.tgz#f1ab8106d103c033fee1934ce880656233d5e448"
+  integrity sha512-R7FiIdkMnrf9QCVhcLn7O/Spq0LZVpjtRM/2u8G0QTe3jdRqI9QkcbkGmk3mn0/gqt+8KZGzM/i+Bp5we1ya2g==
   dependencies:
     common-tags "^1.8.0"
     js-base64 "^2.5.1"
     semaphore "^1.1.0"
 
-"@talves/netlify-cms-backend-gitlab@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-gitlab/-/netlify-cms-backend-gitlab-2.6.2-beta.1.tgz#5ccac75a3c032e5d65723be41f1f2ee829dbbd2a"
-  integrity sha512-HF/HQA8UjdsL4HaLzomrTmoynw3FGV1fDhZNID8F0FdQcYPdjO8aNAMKLJakXbN4HUtZ+9w5kqd0YQJrCi1Gvg==
+"@talves/netlify-cms-backend-gitlab@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-gitlab/-/netlify-cms-backend-gitlab-2.6.2-beta.7.tgz#1cca06fec6a06280dac9645217480a0bd89f2f8d"
+  integrity sha512-J+h+r6btgTRrypwqhoW2o8QEt/fk4jXQ99Hw5yHBLS3xVv6BHgKOeUKOZ47kj54beWU3f5zLAcomLVCkqp5CVw==
   dependencies:
     js-base64 "^2.5.1"
     semaphore "^1.1.0"
 
-"@talves/netlify-cms-backend-test@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-test/-/netlify-cms-backend-test-2.6.2-beta.1.tgz#fc37c054008f744916385f7a9182ce4af9c959b6"
-  integrity sha512-HdWtWodsHzvgX9UMdRpuQr1ll/ChRtYuA9XecU3Af0vK33CP4ir0A3AlKeGG4c7V7JerYy/dNkBzvz3KxjNTqg==
+"@talves/netlify-cms-backend-test@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-backend-test/-/netlify-cms-backend-test-2.6.2-beta.7.tgz#f35dbdac0b089318e2e6269ff7aa746a1c40bed6"
+  integrity sha512-SmZCsyHINTpPMWeFAd/BriKswUpHT65iPITyLYrAk+M2WL0NxXNKYVvBcug3Sr6krFIW1S38qx1rf+AcADl8vQ==
 
-"@talves/netlify-cms-core@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-core/-/netlify-cms-core-2.6.2-beta.1.tgz#3522a46bd8787b5d1216f87b95c7170d21bb38b1"
-  integrity sha512-zfx96AUJO2PhG5Tvs9N4lB0ULr2A8j3sYwlFOVhA/IsRJS+lcw7lHXijrf/k7454PsJBQ6fsQDItfJHzc8dLsQ==
+"@talves/netlify-cms-core@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-core/-/netlify-cms-core-2.6.2-beta.7.tgz#f3ded9da88f42e60c4b22beb6016dc93f0c48bec"
+  integrity sha512-Xwh3MH1+DVPKAYmzzz92MDEXSYv1YfDQ1L49roHfgVuJMrn8gIbzQAcjdjCz4Usf5DXSDBBG4ASeM2vW8UELuA==
   dependencies:
     ajv "^6.10.0"
     ajv-errors "^1.0.1"
@@ -1015,96 +1015,93 @@
     url "^0.11.0"
     what-input "^5.1.4"
 
-"@talves/netlify-cms-editor-component-image@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-editor-component-image/-/netlify-cms-editor-component-image-2.6.2-beta.1.tgz#54158d3492da3f53197791e8325f31336d5b0f3c"
-  integrity sha512-TznXLrNZbYaAmhCaZFL5La52OLKp6eAgmzGp5L51xTBKY4AHLTRtRYazryzNi1QI+FMhYdT0MSiGW57fH32Pzg==
+"@talves/netlify-cms-editor-component-image@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-editor-component-image/-/netlify-cms-editor-component-image-2.6.2-beta.7.tgz#e5162404a791d0548b427b87abf831dd5fe40024"
+  integrity sha512-FdmORnXAYvrqmiuwQDijpEiuWV7Z4t0wPW0xrx81M05KyrnvZvJ6sKvdF57/IHFc+MMVtsQ5oiD4Vr5bpqJEaw==
 
-"@talves/netlify-cms-lib-auth@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-lib-auth/-/netlify-cms-lib-auth-2.6.2-beta.1.tgz#20410edeac5aea86cc5c027b23a0303a7895f0f1"
-  integrity sha512-EMkcS4E3O7BDQsk3PgplCJ7UhtuA8ROMFdTQzxgr1LZH+R+WRCdtzOkNda+2DenIh2zDW8IYD9e6JSCKW0NyeA==
-  dependencies:
-    uuid "^3.1.0"
+"@talves/netlify-cms-lib-auth@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-lib-auth/-/netlify-cms-lib-auth-2.6.2-beta.7.tgz#d6bb4663d6e5918fe9489919c5b7e339edf7edfa"
+  integrity sha512-gfQ6nV6hZPAQOY4hv788NFIbWkZY0c+oc8DR+iR6j1yx3w6AUeN8RZvDC7KKnOJTJ2ykWbUleiYoDK4XAKGjVA==
 
-"@talves/netlify-cms-lib-util@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-lib-util/-/netlify-cms-lib-util-2.6.2-beta.1.tgz#3d1be732cf85402cb3203e993ac0264ae41e582a"
-  integrity sha512-22mFyKMDlOwtawfPZDvnxdSn7IXfKlsjjWAYcNUlXm0D0BFejIkdFCecJSodOd3X9V6UmH1Cz62i3ryl6zdgNQ==
+"@talves/netlify-cms-lib-util@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-lib-util/-/netlify-cms-lib-util-2.6.2-beta.7.tgz#130f8ec0c986378a17126c22db58c20f313aeec7"
+  integrity sha512-GTbI2gYQQVhqgShbXN/MYs+C6KEVJHRNPAiKy2INj9pQXxkP4kWRtzxbfLGEdfG+2W6wEM+nhXBp39boHjzZsA==
   dependencies:
     js-sha256 "^0.9.0"
     localforage "^1.7.3"
 
-"@talves/netlify-cms-media-library-cloudinary@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-media-library-cloudinary/-/netlify-cms-media-library-cloudinary-2.6.2-beta.1.tgz#8a7bc9dc03489cb5f79a06b36bc9f0fad2ccd593"
-  integrity sha512-d24tkKZNHzXUQwZGmDZ1HJbxeORYZCTDAdCdfVPq0xU8YlXpzN4AuzqjUK2JiASVvGHzJ8Sq86oAMqGqndgOLw==
+"@talves/netlify-cms-media-library-cloudinary@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-media-library-cloudinary/-/netlify-cms-media-library-cloudinary-2.6.2-beta.7.tgz#1301c49a83570fb7c6926c6070d824a6e78643f6"
+  integrity sha512-zF96R+ksdXcGcPhp+kHQZ9JGMEJ0nCVFLW2+q2Y9GtHoclR7RHRVtTta920PI9Lw7u7wvqPhbfLuVt6Il6EiRQ==
 
-"@talves/netlify-cms-media-library-uploadcare@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-media-library-uploadcare/-/netlify-cms-media-library-uploadcare-2.6.2-beta.1.tgz#9c6f729f7857be23417dec7e20a60e4a811d5e4f"
-  integrity sha512-ydVfM9TH1t2HFz7I9X+ZuS6E2kihhquxh3H/nRJ3TbvbTTWxYwMibv+AEdVXoEMaCeW2VkegB43YqabRV9iUkg==
+"@talves/netlify-cms-media-library-uploadcare@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-media-library-uploadcare/-/netlify-cms-media-library-uploadcare-2.6.2-beta.7.tgz#9cad0b6333033a9982d3942f163c6678b3dd2c09"
+  integrity sha512-9Bner6QplD+GT74o6w21S5m6Er1JvqxCnXYJBflukGSXgFPuqrwRCvdMjOtajw8Ef8bOtfyQgwplG1jZjecvpQ==
   dependencies:
     uploadcare-widget "^3.7.0"
     uploadcare-widget-tab-effects "^1.4.0"
 
-"@talves/netlify-cms-ui-default@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-ui-default/-/netlify-cms-ui-default-2.6.2-beta.1.tgz#6eaa46afd5e4b734f7e6cb217b578b41d65cad0f"
-  integrity sha512-FRB/cY2TlkY6Edulj2DObDiOQjXtWHmQD0BSWfxoMnQ+v9RwsgOO0wWRsuh8s6D4+OVnGjBAN4eG8M4WA6UOzw==
+"@talves/netlify-cms-ui-default@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-ui-default/-/netlify-cms-ui-default-2.6.2-beta.7.tgz#f0c487fa14482bbe2084203147ff7f78219c4d16"
+  integrity sha512-mweQ4MDkqTb0obTFMrUbnUeS+tioxUSqQJhIiEQdjXP3deustMeErfEr1Lew9tgjQoNaxOVRSfO6N37Ac3IVlA==
   dependencies:
     react-aria-menubutton "^6.0.0"
     react-toggled "^1.1.2"
     react-transition-group "^2.6.0"
 
-"@talves/netlify-cms-widget-boolean@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-boolean/-/netlify-cms-widget-boolean-2.6.2-beta.1.tgz#2253fa1b4246108ad64c8cac8bccc4d377b16849"
-  integrity sha512-VVFnwmiDF/EVoz4BMLKkIm0IxVdxsU9Z57U475R4o3svpzLsyb7O7upapLEN5aqH95k2NwGjSbHqA9esNImTMw==
+"@talves/netlify-cms-widget-boolean@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-boolean/-/netlify-cms-widget-boolean-2.6.2-beta.7.tgz#9bb40386079a55e3c27ca1325c3642f78c1c0644"
+  integrity sha512-KT8AFxr1eyZUb7dCV9Dq8acmc2P3lPaXSoqxvKZGTSDt35ubkQkLNtVPlu6drANYFxTkRYg5f3QZOjWI6yd1eg==
 
-"@talves/netlify-cms-widget-date@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-date/-/netlify-cms-widget-date-2.6.2-beta.1.tgz#0477faedbec76132c928b1877cfeecc8a5b025e3"
-  integrity sha512-Z/AxbwssHiAyHuQzwHkbYnq3J4y8BFE/zceWA/RxIcNBpg04W6VEnaKZy5fPr8ZX8ykhzgxG+s/ISHQ/NUVOaw==
+"@talves/netlify-cms-widget-date@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-date/-/netlify-cms-widget-date-2.6.2-beta.7.tgz#403316f89f0108544c44b317a92607fb277c02f6"
+  integrity sha512-IwapvEXBgpuTDBjk+1F1z7rf0d8DCqJaKYm4shyDuiswfuVzzD5i9WkntE7KCh5WkCG7wGBMzcNZNWHPOZ8wDg==
   dependencies:
     react-datetime "^2.16.3"
 
-"@talves/netlify-cms-widget-datetime@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-datetime/-/netlify-cms-widget-datetime-2.6.2-beta.1.tgz#fff7c0f1417a75aa90a3047dee12f52115089bbc"
-  integrity sha512-kg7z72wnKbuF8l4eO16j9rIbpagUWsxJeDFDIIsEW0zQ2WNm3PAwEStykCSm3QihsGmg/DuFgNpEP3j4YAfLJA==
+"@talves/netlify-cms-widget-datetime@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-datetime/-/netlify-cms-widget-datetime-2.6.2-beta.7.tgz#ede4022a55ed8b802fac066a90e3038dbbc313b0"
+  integrity sha512-KKk9saT33Nsqt30zn8kJLOeHXdC8o+XpJRo/B9/3cJhFPRKxAZD6GDe2L1NnjC5r6YDRHrYWbQJqRQQch6u0yw==
 
-"@talves/netlify-cms-widget-file@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-file/-/netlify-cms-widget-file-2.6.2-beta.1.tgz#f0cb438b49ffe2ce05b830aebed271fd08d708b6"
-  integrity sha512-KUTBFP+mZt4P1o/hgXR1/jTaupT+enYyY6KAMcg11UPXgWYZ94l4DaIYcD2IzGOS6cbArMY8F93nLxtHbik0jQ==
+"@talves/netlify-cms-widget-file@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-file/-/netlify-cms-widget-file-2.6.2-beta.7.tgz#6e44eabdecbd1f671377648c8e02913dda567dce"
+  integrity sha512-qT0Xrhf+5Y3w4YZdt0zQRroZtXC4gQsw0gHMVQqf+jHL9KFda5UcwX5g6DbGitys8DqyM6jQAXUWO/+iMkJGng==
   dependencies:
     common-tags "^1.8.0"
-    uuid "^3.3.2"
 
-"@talves/netlify-cms-widget-image@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-image/-/netlify-cms-widget-image-2.6.2-beta.1.tgz#0d74e7da57d2723dcbd42ae6027ef3dd6df96782"
-  integrity sha512-cxwtTls3TcOiiKLlF1k8fu7sM8/CE2AG+Nbny/WIbQ9XdF87eaHXyMNJxYrbgxe0NBGD4tC5iZ+h10zW9CP4NA==
+"@talves/netlify-cms-widget-image@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-image/-/netlify-cms-widget-image-2.6.2-beta.7.tgz#81e16cafaca13ff27f2160df4b08edac915fae44"
+  integrity sha512-LnLM2z1fe+abpckGGDeTg6hUn6orS6rpsSyiGFUVl1bNVly+wESioMFMg1EM7tub9ZWoQ1mg0e2IGvxH8I7z7A==
 
-"@talves/netlify-cms-widget-list@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-list/-/netlify-cms-widget-list-2.6.2-beta.1.tgz#51ca142a95d71d160a607921b8a1a3973bd73484"
-  integrity sha512-BsAbtvu5Ei7/j0w9yyAzsVaHoCYHP8Z/E5b/nirvitqogpCMEejAxNpll2c7t2ExjSjR1S624k7Z3AhYOW57BA==
+"@talves/netlify-cms-widget-list@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-list/-/netlify-cms-widget-list-2.6.2-beta.7.tgz#aecf97c1c3a98235f49237b1eebd35313b35768d"
+  integrity sha512-keYNMV4SnUjTOpMx8nQqI6tuMOFyp3cFdsrEvxCz4dkWSEQ9ul2euJr74hG/xcgR6zl6D7UIWfynplcSt2FQiA==
   dependencies:
     react-sortable-hoc "^1.0.0"
 
-"@talves/netlify-cms-widget-map@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-map/-/netlify-cms-widget-map-2.6.2-beta.1.tgz#b75791e4e55a889963e820ff62bd1f0dc308cf55"
-  integrity sha512-wSBNMBYTuwj7vWcdpqoUAp3HqFGwl/knIIRtPvAdsPyVSaSOlZtQDoyn/WhugVx2tpxT4vSEoqol5VUK68/fpw==
+"@talves/netlify-cms-widget-map@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-map/-/netlify-cms-widget-map-2.6.2-beta.7.tgz#16840d520d8e9ec710f1421e84cae483b9382c0c"
+  integrity sha512-6N0aIudGY5uiQRJRRdsVoK16FB1P4ch4DIiS1GznF6FER65T4vykpQKrzrKVwS7MWH0oeWABIxhtQPJdtBBDkg==
   dependencies:
     ol "^5.3.1"
 
-"@talves/netlify-cms-widget-markdown@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-markdown/-/netlify-cms-widget-markdown-2.6.2-beta.1.tgz#362da0937bfc553e2da47089356b1c8964f91a93"
-  integrity sha512-ZsuJZPFjiCNDpSk7R+dMil52+S0J4r6DN9VodcsZ0oRRFfT6rDYqW/KxUmiImpTdhY4pYzctFqaHi9j814fZQA==
+"@talves/netlify-cms-widget-markdown@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-markdown/-/netlify-cms-widget-markdown-2.6.2-beta.7.tgz#e9d74231085c6bbc6ebe3da8cfdd9ca354aeaa00"
+  integrity sha512-/4Qjy64X0QvrHLYrrkddVSp0fnHAQLA+KmkixxtTOifzJUR/7JTIBNYyF+/itqmQx1F+XwWaCcGr3/W9UF3jMA==
   dependencies:
     is-hotkey "^0.1.4"
     mdast-util-definitions "^1.2.3"
@@ -1125,39 +1122,39 @@
     unist-builder "^1.0.2"
     unist-util-visit-parents "^1.1.1"
 
-"@talves/netlify-cms-widget-number@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-number/-/netlify-cms-widget-number-2.6.2-beta.1.tgz#1007fc48e7bb20e015e6f09c4db7284b56d1d725"
-  integrity sha512-ghC9OZ0EYOVBRX9Q+rEnTqHetg8KDDTfpsLDywjmjlHRDTAgoxYZ6MMwTuCdIbFtj2qNxGCXLH1Ytj2vCm0AxQ==
+"@talves/netlify-cms-widget-number@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-number/-/netlify-cms-widget-number-2.6.2-beta.7.tgz#f9c23b28ed9f715ef4af0cbd88c2fa3fe20e3763"
+  integrity sha512-iVPDMzOwVo0zaKBW8noTi0V59p12NVJYnaoR9NE2Yh44U6R38L+g3RvQVPnqMvHndwWxxCAiF9WXK6PhkZYoSw==
 
-"@talves/netlify-cms-widget-object@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-object/-/netlify-cms-widget-object-2.6.2-beta.1.tgz#e8c54e081abcc8c0850be27e710fa76503261d64"
-  integrity sha512-mIUDsTp9pVyNvno41ttkcc0ITH1GZQ3fKD5TglGVC6z1opAygCk23XpXNcMDXFdzgkoXzng87EKW82azGO4Vmg==
+"@talves/netlify-cms-widget-object@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-object/-/netlify-cms-widget-object-2.6.2-beta.7.tgz#7ff13bafeb9d4f1e234a379907014ea04c9fdc2f"
+  integrity sha512-aQ9HI0DXWip/hFMm0DzH5bTT3SFffENO9W6plfkDh4Myx1IbHvL0+I0t3AMRr2eeXJS0TgzkJxugRgrK248wew==
 
-"@talves/netlify-cms-widget-relation@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-relation/-/netlify-cms-widget-relation-2.6.2-beta.1.tgz#db39036f0c792aedc71b4ac6feec4e902c2facaa"
-  integrity sha512-aOm65ks3r7Kvs7RjvRrY1Q1g/1abwInC2ZCQH8+w9BJa2ytexkhJ262Wnj85OYSAXAYDVeJASaDZ637v5jEcpQ==
+"@talves/netlify-cms-widget-relation@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-relation/-/netlify-cms-widget-relation-2.6.2-beta.7.tgz#73641145a8427d6901444a57d3d5a086822476f9"
+  integrity sha512-dWVOGcGw8jlqjmmBNuuY1Vn2M1aa8I21Eh9z3PGJsqBqhxCr3VfyvcQ0UhMyY2WnLSiSltIUgpvkLkBGhtX0qQ==
   dependencies:
     react-select "^2.4.2"
 
-"@talves/netlify-cms-widget-select@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-select/-/netlify-cms-widget-select-2.6.2-beta.1.tgz#66b477d2a4402a8c230b49d9daf66d11c297a4cb"
-  integrity sha512-v0PVjqsQM2uO6im1RsIGH9uEmhW94Tb/uYl/TAKC00GcU9D4AUPO0f3G9QhOHpxpSxCrlP3mt9LGRadXqfSttg==
+"@talves/netlify-cms-widget-select@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-select/-/netlify-cms-widget-select-2.6.2-beta.7.tgz#dd4bd740d31e0854d72844a73990a0511a5fb405"
+  integrity sha512-gWtoPFmq7kSSqF7ROzLtKBrvjJfRqeQTSdcMx6OChHutL7C9BoG3qgLnXH+9WcYmwrdJJ/wrRP4HCpegwOO1+w==
   dependencies:
     react-select "^2.4.2"
 
-"@talves/netlify-cms-widget-string@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-string/-/netlify-cms-widget-string-2.6.2-beta.1.tgz#d83bee184432b58b3269781d77f56d4c7be6f188"
-  integrity sha512-oPwT3bpks7ZP7nv37nHo0YxkgpQ1H5Ht4SD7nKE/zLJaJ+HEHIs4ycnx7K/izYx/8SHo9OuQbeQUQxZI98eiiA==
+"@talves/netlify-cms-widget-string@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-string/-/netlify-cms-widget-string-2.6.2-beta.7.tgz#01686832423bce9e52b52aab88d1059ab31eabb2"
+  integrity sha512-ha/IsDmG/g/CyulIHrL7ByRSDLdNU75FItj7T9lvuhPA6MI8SgZGifxCs9Ow8ZODVqaeqjCxEO7f52il7ERPIg==
 
-"@talves/netlify-cms-widget-text@2.6.2-beta.1":
-  version "2.6.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-text/-/netlify-cms-widget-text-2.6.2-beta.1.tgz#c25d125ac5a814d1ff9db0ce5876a56ddde588a7"
-  integrity sha512-uL7I/H8H+MqZaLx1pVNkjGaU0VByoXzmgha2+tJojrd6y9GEQKwIJQL9CLVLzOYzWVrZlp0VWNMgRgc4cuWp9A==
+"@talves/netlify-cms-widget-text@2.6.2-beta.7":
+  version "2.6.2-beta.7"
+  resolved "https://registry.yarnpkg.com/@talves/netlify-cms-widget-text/-/netlify-cms-widget-text-2.6.2-beta.7.tgz#3bc54dbfa28cd25bc76881e81e80e3eaa2ca973c"
+  integrity sha512-re9QU+mJkcAxLLzKapG2Pa5GqMr8otpK6VyMkwsfKscbNKCql0vmnSX2jm/AjwVRWbUfRTDR7vAzLqsoUPrrsQ==
   dependencies:
     react-textarea-autosize "^7.1.0"
 
@@ -7185,7 +7182,7 @@ utils-extend@^1.0.4, utils-extend@^1.0.6:
   resolved "https://registry.yarnpkg.com/utils-extend/-/utils-extend-1.0.8.tgz#ccfd7b64540f8e90ee21eec57769d0651cab8a5f"
   integrity sha1-zP17ZFQPjpDuIe7Fd2nQZRyril8=
 
-uuid@^3.1.0, uuid@^3.3.2:
+uuid@3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
