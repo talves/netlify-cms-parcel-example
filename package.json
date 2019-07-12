@@ -28,7 +28,7 @@
     "@emotion/styled": "^10.0.9",
     "emotion": "^9.2.6",
     "immutable": "^3.7.6",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "moment": "^2.24.0",
     "netlify-cms-backend-bitbucket": "^2.0.0",
     "netlify-cms-backend-git-gateway": "2.4.1-beta.0",
