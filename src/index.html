@@ -1,14 +1,16 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>Netlify CMS parcel bundle example</title>
   <script src="./test.data.js"></script>
 </head>
+
 <body>
-  <script src="https://unpkg.com/react@16.8.2/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@16.8.2/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/create-react-class@15.6.3/create-react-class.js"></script>
+  <script src="https://unpkg.com/react@16.14.0/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/create-react-class@15.7.0/create-react-class.js"></script>
   <script src="./index.js"></script>
   <script>
     console.log('window', window)
@@ -16,23 +18,23 @@
     var createClass = createReactClass;
     console.log('CMS', CMS)
     var PostPreview = createClass({
-      render: function() {
+      render: function () {
         var entry = this.props.entry;
         return h('div', {},
-          h('div', {className: "cover"},
+          h('div', { className: "cover" },
             h('h1', {}, entry.getIn(['data', 'title'])),
             this.props.widgetFor('image'),
           ),
           h('p', {},
             h('small', {}, "Written " + entry.getIn(['data', 'date']))
           ),
-          h('div', {"className": "text"}, this.props.widgetFor('body'))
+          h('div', { "className": "text" }, this.props.widgetFor('body'))
         );
       }
     });
 
     var GeneralPreview = createClass({
-      render: function() {
+      render: function () {
         var entry = this.props.entry;
         var title = entry.getIn(['data', 'site_title']);
         var posts = entry.getIn(['data', 'posts']);
@@ -48,18 +50,18 @@
             h('dd', {}, this.props.widgetsFor('posts').getIn(['data', 'author']) || 'None'),
 
             h('dt', {}, 'Default Thumbnail'),
-            h('dd', {}, thumb && h('img', {src: this.props.getAsset(thumb).toString()}))
+            h('dd', {}, thumb && h('img', { src: this.props.getAsset(thumb).toString() }))
           )
         );
       }
     });
 
     var AuthorsPreview = createClass({
-      render: function() {
+      render: function () {
         return h('div', {},
           h('h1', {}, 'Authors'),
-          this.props.widgetsFor('authors').map(function(author, index) {
-            return h('div', {key: index},
+          this.props.widgetsFor('authors').map(function (author, index) {
+            return h('div', { key: index },
               h('hr', {}),
               h('strong', {}, author.getIn(['data', 'name'])),
               author.getIn(['widgets', 'description'])
@@ -70,7 +72,7 @@
     });
 
     const RelationKitchenSinkPostPreview = createClass({
-      render: function() {
+      render: function () {
         // When a post is selected from the relation field, all of it's data
         // will be available in the field's metadata nested under the collection
         // name, and then further nested under the value specified in `valueField`.
@@ -122,17 +124,17 @@
     CMS.registerEditorComponent({
       id: "youtube",
       label: "Youtube",
-      fields: [{name: 'id', label: 'Youtube Video ID'}],
+      fields: [{ name: 'id', label: 'Youtube Video ID' }],
       pattern: /^{{<\s?youtube (\S+)\s?>}}/,
-      fromBlock: function(match) {
+      fromBlock: function (match) {
         return {
           id: match[1]
         };
       },
-      toBlock: function(obj) {
+      toBlock: function (obj) {
         return '{{< youtube ' + obj.id + ' >}}';
       },
-      toPreview: function(obj) {
+      toPreview: function (obj) {
         return (
           '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
         );
@@ -141,4 +143,5 @@
     CMS.init();
   </script>
 </body>
+
 </html>
