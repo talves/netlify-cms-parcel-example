@@ -30,7 +30,7 @@
     "hast-util-is-element": "^1.1.0",
     "immutable": "^3.7.6",
     "lodash": "^4.17.10",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "netlify-cms-backend-bitbucket": "^2.13.3",
     "netlify-cms-backend-git-gateway": "^2.12.2",
     "netlify-cms-backend-github": "^2.13.3",
